@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# DVC cache
+.dvc/cache/
+
+# ML artifacts (optional)
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.onnx
+
+# Large datasets (if NOT tracked by DVC)
+data/
+/data
