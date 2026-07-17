@@ -2,9 +2,9 @@ import pandas as pd
 import os 
 
 data = {
-    "name":["kaksh","kaksh2","kaksh3","newdata"],
-    "age" : [21,22,23,0],
-    "gender" : ["male","male","male","newdata"]
+    "name":["kaksh","kaksh2","kaksh3","my"],
+    "age" : [21,22,23,10],
+    "gender" : ["male","male","male","male"]
 }
 
 df = pd.DataFrame(data)
